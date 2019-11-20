@@ -1,0 +1,52 @@
+/* 3분할 레이아웃 (inner필요함) 보드에 필수*/
+/* .devide3 {overflow: hidden; margin:0 -25px;}
+.devide3 > *,.devide3 .devide3_col {width: 33.333%; padding: 0 25px; float: left;}
+.devide3 .inner,.devide3 .list_item_inner {position: relative; width: 100%; height: inherit;} */
+
+.cate_tag { display: inline; width: 150px; background: var(--black-m); color:var(--fff-m); padding: 10px 15px; margin-right:20px;}
+/* .board_d .board_d_tit {font-size: 20px; font-weight: 400; color:var(--sub);}
+.board_d .board_img {background: #888; height: 300px; display: block; max-width: 1000px; margin: 0 auto; text-align: center;} */
+
+/* 디테일 페이지 */
+.board_d {border-top:2px solid var(--black-m);}
+.board_d .board_d_top {border-bottom: 1px solid #dcdcdc; padding: 35px 36px;}
+.board_d .board_d_md {padding: 35px 36px; border-bottom: 1px solid #dcdcdc;}
+.board_d .board_d_md p { font-size: 18px; color:#888; font-weight: 300; display: block; line-height: 1.8; max-width: 1000px; margin: 0 auto; margin-top:25px;}
+.board_d .board_d_bttom {padding: 20px 37px; display: flex; justify-content: space-between;}
+.board_d .board_d_bttom .back_btn{line-height: 1.8; font-size: 20px; font-weight: 300; letter-spacing: 0.5px; text-align: right; display: inline-block;}
+.board_d .board_d_bttom .back_btn a { border-bottom: 3px solid var(--black-m);  cursor: pointer; }
+.board_d .board_d_bttom .back_btn.next_btn {margin-left:10px;}
+
+/* 프로젝트 */
+.project_list .list_item {height: 450px; margin-bottom: 50px; overflow: hidden;}
+.project_list .list_item .list_item_inner {background: #888; height: inherit; padding: 40px 30px; }
+.project_list .list_item .list_item_inner .list_item_tit {color:var(--fff-m); font-size: 22px; font-weight: 500;}
+.project_list .list_item .list_item_inner .list_item_date {color:var(--fff-m); line-height: 1; font-size: 14px; letter-spacing: -0.5px;  margin-top:20px; line-height: 2; font-weight: 500; opacity:0.8; margin-bottom:6px;}
+.project_list .list_item .list_item_inner .list_item_desc {line-height: 1.8;font-size: 18px;letter-spacing: -0.5px; color:var(--fff-m);}
+.project_list .list_item .list_item_inner [class*="list_item"] { position:relative; z-index: 2;}
+.project_list .list_item .list_item_inner .text_cover {position: relative; z-index: 3; height:100%; width: 100%;}
+.project_list .list_item .list_item_inner .text_cover div {position:  absolute; z-index: 3; bottom: 0;}
+
+/* 새소식 */
+.sub9_sec1 {padding: 25px 0 65px 0;}
+.list_item {height: 450px; margin-bottom: 50px; overflow: hidden;}
+.news_list .list_item .list_item_inner { height: inherit; padding: 40px 30px; position: relative;}
+.news_list .list_item .list_item_inner .list_item_tit {color:var(--fff-m); font-size: 22px; font-weight: 500; position: relative;}
+.news_list .list_item .list_item_inner .list_item_date {color:var(--fff-m); line-height: 1; font-size: 14px; letter-spacing: -0.5px;  margin-top:20px; line-height: 2; font-weight: 500; opacity:0.8; margin-bottom:6px; position: absolute; bottom:30px;}
+.news_list .list_item .list_item_inner .list_item_desc {line-height: 1.8;font-size: 18px;letter-spacing: -0.5px; color:var(--fff-m); position: absolute;bottom:40px; right:30px;}
+.news_list .list_item .list_item_inner [class*="list_item"]  {z-index: 10;}
+
+/* 공지사항 */
+.notice_list {width: 100%; position: relative;}
+.notice_list .list_item {background: #f7f7f7; padding: 35px 36px; position: relative; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-bottom:25px; border:1px solid transparent; height: auto;}
+.notice_list .list_item:hover {border:1px solid var(--primary);}
+.notice_list .list_item .list_item_tit {font-size: 20px; font-weight: 400; color:var(--sub);}
+.notice_list .list_item .list_item_date {position: absolute; top:35px; right:36px; font-size: 14px;}
+.notice_list .list_item .list_item_desc {font-size: 16px; margin-top:25px; width: 100%; color:#8e8e8e; font-weight: 300; max-width: 80%;}
+
+/* FAQ */
+.q_tag {font-family: var(--ft-eng); color:var(--black-m); font-size: 35px;}
+
+/* 페이저 */
+/* 검색 */
+/* 에디터필드 */

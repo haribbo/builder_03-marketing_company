@@ -1,0 +1,61 @@
+/* section_padd-bottom: 83px; */
+/* Default */
+.sub_page {max-width: 1300px; margin: 0 auto;  padding: 0 15px 150px 15px; position: relative;}
+.sub_page.wide_sub_page {width: 100%; max-width: 100%; padding: 0 0 150px 0;}
+
+.sub_page p { font-size: 18px; font-weight: 300; line-height: 1.8;}
+.sub_page img {background: #888;}
+.sub_page_desc {padding-bottom: 60px;}
+/*  */
+/* showcase */
+.showcase {width: 100%; height: 650px; position: relative; background: #eee;}
+.showcase_tit { position: absolute; bottom:0; left:6%; bottom: 60px; color:#fff; font-weight: 400; font-size: 20px; line-height: 1.5;}
+.showcase_tit strong {font-size: 24px; line-height: 1.8; display: block;}
+/*sub_page_heading */
+.sub_page_heading {padding-top:77px; margin-bottom: 54px;}
+.sub_page_heading h2 {font-size: 34px; color:#1a1a1a; font-weight: bold; padding-bottom: 25px; border-bottom: 3px solid #1a1a1a; padding-right:30px; display: inline-block;}
+.sub_page_heading p { margin-top: 25px; font-size: 20px; line-height: 1.4; color:#1a1a1a;font-weight: bold;}
+.sub_page_heading.center {max-width: 1300px; margin: 0 auto; padding: 0 15px; padding-top:77px; margin-bottom: 54px;}
+/* conts_heading */
+.conts_heading {position: relative; display: block; margin-bottom: 63px;}
+.conts_heading h2 {font-size: 22px;line-height: 1.6; color:#1a1a1a; font-weight: bold; padding-bottom: 15px; border-bottom: 3px solid #1a1a1a; padding-right:15px; display: inline-block;}
+.conts_heading p { font-size: 18px; font-weight: bold; line-height: 2; margin-top:15px; color:#1a1a1a;}
+.conts_heading.center {max-width: 1300px; margin: 0 auto; margin-bottom: 63px;}
+/* banner */
+.text_banner { background: #f6f6f6; padding: 15px 20px; text-align: center; font-size: 20px;}
+.text_banner p.text_banner_txt { font-size: 20px; line-height: 2.4; margin-top:0; padding: 0; text-align: center; color:#1a1a1a; font-weight: 400;}
+.text_banner span.txt_point {color:var(--primary); font-weight: 500; font-size: inherit; }
+.text_banner.wide {padding:  35px 0;}
+.text_banner.center {max-width: 1300px; margin: 0 auto;}
+.text_banner .banner_br,.txt_br {display: block; font-size: inherit; font-weight:inherit; color:inherit}
+/* strong_list */
+.strong_list { line-height: 2; color:var(--gray-m); font-size: 16px;}
+.strong_list strong {font-weight: 600; color:#1a1a1a; margin-right:50px; width: 130px; display: inline-block;}
+/* tabs */
+.tab_items {width: 100%; display: flex; justify-content: space-between; padding-bottom: 25px;}
+.tab_items .tab_item {flex:1; line-height: 1.8; font-size: 20px; font-weight: 300; text-align: center; letter-spacing: 0.5px;  cursor: pointer;}
+.tab_items .tab_item.active a {border-bottom: 3px solid var(--black-m);}
+.tabContents {position: relative; width: 100%; min-height: 600px;}
+.tabContents .tabContent {position: absolute; top:0; left:0; right:0; height: inherit;}
+.tabContents .tabContent .tabContent_conts {padding: 30px 0 40px 0;}
+.tabContents .tabContent .tab_tit {font-size: 20px; color:#333; font-weight: 400;}
+.tabContents .tabContent .tab_tit_desc {font-size:18px; padding-bottom:15px; font-weight: 400;}
+/* layout */
+/* 2분할 레이아웃 */
+.devide2 {display: flex; flex-wrap:wrap; justify-content: space-between; align-items: center; }
+.devide2 .devide2_col, .devide2 > * {width: 50%;}
+.devide2 .devide2_col.txt_box {padding-left: 70px; padding-right: 20px; display: flex; align-items: center; flex-direction: row; flex-wrap:wrap; height: inherit;}
+.devide2 .devide2_col.txt_box > * {width: 100%;}
+.devide2 .devide2_col.txt_box.reverse {padding: 0; padding-left:20px; padding-right: 70px;}
+.devide2 .devide2_col.txt_box strong  {font-size: 24px; line-height: 1.6; color:#6f6f6f; font-weight: bold;}
+.devide2 .devide2_col.txt_box p {padding-top:20px; font-size: 18px; line-height: 1.75; font-weight: 400; color:#8a8a8a;}
+.devide2 .devide2_col.img_box {background: #888; height: 400px; padding-bottom: 120px;}
+.devide2 .devide2_col .btn_area {display: block; padding-top:30px;}
+.devide2+.devide2 {padding-top: 120px;}
+/* 5분할 레아아웃 */
+.devide5 {display: flex; align-items: center; justify-content: space-between;}
+.devide5 > div {width: 25%;}
+/* 3분할 레이아웃 (inner필요함) */
+.devide3 {overflow: hidden; margin:0 -25px;}
+.devide3 > *,.devide3 .devide3_col {width: 33.333%; padding: 0 25px; float: left;}
+.devide3 .inner,.devide3 .list_item_inner {position: relative; width: 100%; height: inherit;}
