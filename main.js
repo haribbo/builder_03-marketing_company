@@ -26,5 +26,21 @@ $(document).ready(function() {
     $(`#${tab_target}`).addClass('active');
   });
 
-      $(".counter").counterUp({delay:10,time:500});
+  // $(".counter").counterUp({delay:10,time:500});
+
+  // faq 드롭
+  const drop_item = $('.drop_item');
+  const drop_content = $('.drop_content');
+
+  drop_item.click(function(event) {
+    event.preventDefault();
+    var idx = drop_item.index(this);
+    drop_item.removeClass('view');
+    drop_item.eq(idx).addClass('view');
+
+    drop_content.removeClass('view');
+    drop_item.eq(idx).find('.drop_content').addClass('view');
+  });
+
+
 });
