@@ -37,9 +37,9 @@ $(document).ready(function() {
     var idx = drop_item.index(this);
     drop_item.removeClass('view');
     drop_item.eq(idx).addClass('view');
-
     drop_content.removeClass('view');
     drop_item.eq(idx).find('.drop_content').addClass('view');
+
   });
 
 
